@@ -15,13 +15,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 40vh;
+  min-height: 50vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  padding: 1.2rem 1rem 2rem;
+  justify-content: center;
+  padding: 2rem 1rem;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -41,28 +41,34 @@
 }
 
 .header-nav a {
-  color: #61dafb;
+  color: #adadad;
+  border-color: #830000;
   text-decoration: none;
   margin-left: 1.25rem;
   font-weight: 500;
+  background-color: #830000;
+  border-radius: 20px;
+  padding: 8px 15px;
 }
 
 .header-nav a:hover {
-  color: #21a1f1;
+  color: #b1b3b4;
 }
 
 .header-text {
   max-width: 800px;
+  color:#830000
 
 }
 
 .header-text h1 {
   margin: 0 0 0.75rem;
+  color: #adadad;
 }
 
 .header-text p {
   margin: 0;
-  color: #d7d7d7;
+  color: #830000;
 }
 
 .App-link {
