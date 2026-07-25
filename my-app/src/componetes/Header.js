@@ -17,7 +17,7 @@ function Header() {
         </nav>
       </div>
       <div className="header-text">
-        <h1>Bem-vindo ao Projeto Prof. Lepi</h1>
+        <h1>Bem-vindo ao site do Prof. Lepi</h1>
         <p></p>
       </div>
     </header>
