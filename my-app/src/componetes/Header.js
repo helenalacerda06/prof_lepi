@@ -18,7 +18,7 @@ function Header() {
       </div>
       <div className="header-text">
         <h1>Bem-vindo ao Projeto Prof. Lepi</h1>
-        <p>Este é um cabeçalho simples para começar seu site em React.</p>
+        <p></p>
       </div>
     </header>
   );
