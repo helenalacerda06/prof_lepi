@@ -1,22 +1,20 @@
+import styles from './Card.modules.css';
+
 function Card({ titulo, descricao, imagem }) {
   return (
-    <div>
+    <article className={styles.card}>
       {imagem && (
-        <img
-          src={imagem}
-          alt={titulo}
-
-        />
+        <img className={styles.cardImage} src={imagem} alt={titulo || 'Card ilustrativo'} />
       )}
 
-      <div >
-        <h3>{titulo}</h3>
-        <p >{descricao}</p>
-        <button>
+      <div className={styles.cardContent}>
+        <h3 className={styles.cardTitle}>{titulo}</h3>
+        <p className={styles.cardDescription}>{descricao}</p>
+        <button className={styles.cardButton} type="button">
           Saiba mais
         </button>
       </div>
-    </div>
+    </article>
   );
 }
 
