@@ -1,5 +1,8 @@
 import styles from './QuemSomos.module.css';
 import Card from './Card';
+import Helena from '../imagem/helena.jpeg';
+import Nat from '../imagem/nat.jpeg';
+import Riam from '../imagem/Riam.jpeg';
 
 function QuemSomos() {
   return (
@@ -11,19 +14,19 @@ function QuemSomos() {
       <section className={styles.cardsSection}>
         <div className={styles.cardsGrid}>
           <Card
-            titulo="Leitura em Foco"
-            descricao="Descubra livros e temas que despertam a curiosidade e a imaginação."
-            imagem="https://via.placeholder.com/300x180/830000/ffffff?text=Leitura"
+            titulo="Helena"
+            descricao="Helena faz os posts do nosso instagram, além de ser responsável pole desenvolvimento do nosso blog e das publicações."
+            imagem={Helena}
           />
           <Card
-            titulo="Análise Literária"
-            descricao="Explore reflexões, interpretações e ideias que vão além da página."
-            imagem="https://via.placeholder.com/300x180/8b5a2b/ffffff?text=Analise"
+            titulo="Natalia"
+            descricao="Natalia é responsável por criar os desenhos tanto para o nosso blog quanto para o nosso instagram."
+            imagem={Nat}
           />
           <Card
-            titulo="Cultura e Conhecimento"
-            descricao="Acompanhe conteúdos criativos que conectam literatura, arte e educação."
-            imagem="https://via.placeholder.com/300x180/4a5568/ffffff?text=Cultura"
+            titulo="Riam"
+            descricao="Riam é responsável pela organização do trabalho e quais os assuntos abordados em nossas postagens."
+            imagem={Riam}
           />
         </div>
       </section>
