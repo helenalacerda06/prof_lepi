@@ -5,7 +5,7 @@
 
 .QuemSomos h1 {
   display: inline-block;
-  color: #ffffff;
+  color: #adadad;
   border: 1px solid #830000;
   margin: 0 0 1rem 0;
   font-weight: 600;
@@ -17,7 +17,7 @@
 .QuemSomos h2 {
   max-width: 800px;
   margin: 0 auto 0.75rem;
-  color: #3b3b3b;
+  color: #000000;
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -25,7 +25,7 @@
 .QuemSomos p {
   max-width: 800px;
   margin: 0 auto 2rem;
-  color: #666666;
+  color: #000000;
   line-height: 1.7;
 }
 
@@ -35,7 +35,7 @@
 
 .cardsGrid {
   display: flex;
-  gap: 24px;
+  gap: 25px;
   flex-wrap: wrap;
   justify-content: center;
 }

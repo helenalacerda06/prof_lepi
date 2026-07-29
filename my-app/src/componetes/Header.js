@@ -13,7 +13,6 @@ function Header() {
         <nav className="header-nav">
           <a href="#home">Home</a>
           <a href="#sobre">Sobre</a>
-          <a href="#contato">Contato</a>
         </nav>
       </div>
       <div className="header-text">

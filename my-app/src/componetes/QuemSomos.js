@@ -15,8 +15,9 @@ function QuemSomos() {
         <div className={styles.cardsGrid}>
           <Card
             titulo="Helena"
-            descricao="Helena faz os posts do nosso instagram, além de ser responsável pole desenvolvimento do nosso blog e das publicações."
+            descricao="Helena faz os posts do nosso instagram, além de ser responsável por nosso blog ."
             imagem={Helena}
+            button= ""
           />
           <Card
             titulo="Natália"
