@@ -19,8 +19,8 @@ function QuemSomos() {
             imagem={Helena}
           />
           <Card
-            titulo="Natalia"
-            descricao="Natalia é responsável por criar os desenhos tanto para o nosso blog quanto para o nosso instagram."
+            titulo="Natália"
+            descricao="Natália é responsável por criar os desenhos tanto para o nosso blog quanto para o nosso instagram."
             imagem={Nat}
           />
           <Card
