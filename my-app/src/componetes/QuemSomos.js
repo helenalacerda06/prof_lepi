@@ -3,13 +3,24 @@ import Card from './Card';
 import Helena from '../imagem/helena.jpeg';
 import Nat from '../imagem/nat.jpeg';
 import Riam from '../imagem/Riam.jpeg';
+import FotoLepi from '../imagem/fotoLepi.jpeg';
 
 function QuemSomos() {
   return (
     <div className={styles.QuemSomos}>
-      <h1>Quem Somos</h1>
-      <h2>Esse site é dedicado ao trabalho de Literatura do segundo ano do ensino médio do colégio Acesso.</h2>
-      <p>Aqui vamos divulgar informações sobre os livros da federal, de uma forma divertida com a ajuda do professor Lepi, a traça.</p>
+                 <h1>Quem somos</h1>
+      <div className={styles.featureCard}>
+        <img className={styles.featureImage} src={FotoLepi} alt="Professor Lepi" />
+
+        <div className={styles.featureText}>
+          <h2>
+            Esse site é dedicado ao trabalho de literatura do segundo ano do ensino médio do colégio Acesso.
+          </h2>
+          <p>
+            Aqui vamos divulgar informações sobre os livros da federal, de uma forma divertida com a ajuda do professor Lepi, a traça.
+          </p>
+        </div>
+      </div>
 
       <section className={styles.cardsSection}>
         <div className={styles.cardsGrid}>

@@ -1,6 +1,31 @@
 .QuemSomos {
   padding: 3rem 1.5rem 4rem;
-  background: linear-gradient(180deg, #fffaf7 0%, #ffffff 100%);
+  background: linear-gradient( #e4e7e8 100%);
+}
+
+.featureCard {
+  max-width: 980px;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.25rem;
+  background: linear-gradient(135deg, #fff7f2 0%, #ffffff 100%);
+  border: 1px solid rgba(131, 0, 0, 0.15);
+  border-radius: 24px;
+  box-shadow: 0 12px 30px rgba(131, 0, 0, 0.12);
+}
+
+.featureImage {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+  flex-shrink: 0;
+}
+
+.featureText {
+  flex: 1;
 }
 
 .QuemSomos h1 {
@@ -15,16 +40,14 @@
 }
 
 .QuemSomos h2 {
-  max-width: 800px;
-  margin: 0 auto 0.75rem;
+  margin: 0 0 0.75rem;
   color: #000000;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .QuemSomos p {
-  max-width: 800px;
-  margin: 0 auto 2rem;
+  margin: 0;
   color: #000000;
   line-height: 1.7;
 }
