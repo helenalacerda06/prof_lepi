@@ -4,14 +4,13 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-brand">
           <h3>Professor Lepi</h3>
-          <p>Aprendizado, apoio e motivação para cada etapa da sua jornada.</p>
+          <p>"Toda grande história merece ser descoberta." O Professor Lepi está aqui para tornar a leitura das obras da Federal mais leve, divertida e acessível. </p>
         </div>
 
         <div className="footer-links">
           <a href="https://www.instagram.com/prof_lepi/" target="_blank" rel="noreferrer">
             Instagram
           </a>
-          <a href="mailto:contato@professorlepi.com.br">Contato</a>
         </div>
       </div>
 
